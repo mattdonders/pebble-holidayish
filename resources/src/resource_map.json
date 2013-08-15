@@ -1,9 +1,9 @@
 {
     "media": [
         {
-            "defName": "DUMMY",
-            "type": "raw",
-            "file": "resource_map.json"
+            "defName": "APPICON",
+            "type": "png",
+            "file": "images/pebbleHolidayish.png"
         }
     ],
     "friendlyVersion": "VERSION",

@@ -43,7 +43,7 @@ void setTime(PblTm* t) {
   // Convert minutes (15-45) to text  
   if ((ish_minutes > 15) && (ish_minutes < 45)) {
 	ish_minutes = 30;
-	snprintf(timeText, sizeof(timeText), "%d:%dish", ish_hours, ish_minutes);
+	mini_snprintf(timeText, sizeof(timeText), "%d:%dish", ish_hours, ish_minutes);
   }
 	
   else {
